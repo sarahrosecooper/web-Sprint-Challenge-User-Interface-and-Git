@@ -120,6 +120,19 @@ nav li {
     font-size: 0.9em;
    }
  
+   .header
+   {
+       display: flex;
+       margin: 0 auto;
+       padding: 30px;
+       justify-content: space-around;
+       max-width: 94%;
+   }
+   .headerImage {
+      margin: 0 auto;
+      width: 100%;
+   }
+
 .container {
     width: 800px;
     margin: 0 auto;
