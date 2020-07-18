@@ -72,14 +72,15 @@ p {
 
 header {
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom:30px;
     margin-right: 100px;
     margin-left: 100px;
 }
 
 nav ul {
+    
     list-style-type: none;
-    padding: 0;
+    padding: 12px;
 }
 
 nav a{
@@ -100,7 +101,6 @@ nav li {
 }
 
 .logo {
-    margin-left: 2.3em;
     display: inline-block;
   }
  
@@ -120,14 +120,6 @@ nav li {
     font-size: 0.9em;
    }
  
-   .header
-   {
-       display: flex;
-       margin: 0 auto;
-       padding: 30px;
-       justify-content: space-around;
-       max-width: 94%;
-   }
    .headerImage {
       margin: 0 auto;
       width: 100%;
