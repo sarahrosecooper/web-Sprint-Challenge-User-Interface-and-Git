@@ -122,6 +122,7 @@ nav li {
  
    .headerImage {
       margin: 0 auto;
+      padding-top: 15px;
       width: 100%;
    }
 
@@ -210,6 +211,16 @@ div .nine {
 div .ten {
     background-color: dodgerblue;
 }
+
+/*MIDDLE CONTENT*/
+
+.middleSection {
+    display: flex;
+    flex-flow: row nowrap;
+  }
+
+
+/*MIDDLE CONTENT END*/
 
 .bottom-content {
     display: flex;
