@@ -171,12 +171,52 @@ nav li {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+     /*background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+div .one {
+    background-color: teal;
+}
+
+div .two {
+    background-color: gold;
+}
+
+div .three {
+    background-color: cadetblue;
+}
+
+div .four {
+    background-color: coral;
+}
+
+div .five {
+    background-color: crimson;
+}
+
+div .six {
+    background-color: forestgreen;
+}
+
+div .seven {
+    background-color: darkorchid;
+}
+
+div .eight {
+    background-color: hotpink;
+}
+
+div .nine {
+    background-color: indigo;
+}
+
+div .ten {
+    background-color: dodgerblue;
 }
 
 .bottom-content {
