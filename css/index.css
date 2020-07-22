@@ -66,6 +66,98 @@ p {
     line-height: 1.4;
 }
 
+
+ 
+/*NAV */
+
+/* header {
+    margin-top: 20px;
+    margin-bottom:30px;
+    margin-right: 100px;
+    margin-left: 100px; */
+}
+
+nav ul {
+    
+    list-style-type: none;
+    padding: 12px;
+
+}
+
+nav a{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    display: block;
+    padding: 10px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+nav li {
+    flex: 1 1 0;
+}
+
+.logo {
+    display: inline-block;
+  }
+ 
+  nav {
+      margin-top: 20px;
+      align-self: center;
+    max-width: 100%;
+    /* margin: 0 0.8em 0 0; */
+  }
+
+  header ul {
+    display: flex;
+    flex-flow: row wrap;
+    list-style-type: none;
+   }
+   
+   header ul li {
+    padding: 0 1.4em 0 0;
+    font-size: 0.9em;
+   }
+ 
+   nav img {
+       display: flex;
+       text-align: center;
+      
+   }
+
+   .jumboAbout {
+       display:
+       
+   }
+
+   .jumboImage {
+    width: 100%;
+    height: 200px;
+    background-image: url('jumbo-about.png');
+    background-size: 100% 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   }
+
+   .jumboImage2 {
+    width: 100%;
+    height: 200px;
+    background-image: url('jumbo.jpg');
+    background-size: 100% 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   }
+   .headerImage {
+      /* margin: 0 auto;
+      padding-top: 15px;
+      width: 100%; */
+   }
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -104,13 +196,102 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+     /*background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+div .one {
+    background-color: teal;
+}
+
+div .two {
+    background-color: gold;
+}
+
+div .three {
+    background-color: cadetblue;
+}
+
+div .four {
+    background-color: coral;
+}
+
+div .five {
+    background-color: crimson;
+}
+
+div .six {
+    background-color: forestgreen;
+}
+
+div .seven {
+    background-color: darkorchid;
+}
+
+div .eight {
+    background-color: hotpink;
+}
+
+div .nine {
+    background-color: indigo;
+}
+
+div .ten {
+    background-color: dodgerblue;
+}
+
+
+.aboutContent {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 20px;
+    
+}
+
+.item {
+    width: 48%;
+    margin-left: 1px;
+    margin-bottom: 20px;    
+    /* border-bottom: dotted 2px black; */
+}
+.item.border {
+    padding-bottom: 10px;
+    margin-top: 20px;
+    
+}
+
+.item p {
+    margin-bottom: 20px;
+}
+.item a {
+    text-decoration: none;
+    padding: 9px;
+    margin-top: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-weight: bold;
+    color: black;
+}
+
+/*MIDDLE CONTENT
+
+.middleSection {
+    border-bottom: black dotted 2px;
+  
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 10px;
+  }
+
+
+/*MIDDLE CONTENT END*/
 
 .bottom-content {
     display: flex;
@@ -126,6 +307,31 @@ p {
     padding-right: 0;
 }
 
+.bottomMargin {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: black dotted 2px;
+}
+
+.item5 {
+    
+    margin-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+
+hr {
+    margin: 4px;
+    border: dashed black 1px;
+}
+.bottomHeader {
+    padding-left: 35px;
+    margin-top: 20px;
+}
+
+section p {
+    font-weight: bolder;
+}
 footer {
     width: 100%;
     background: black;
